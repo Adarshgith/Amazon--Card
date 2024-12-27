@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* font-family: "Open Sans", serif; */
+body {
+  font-family: "Lato", serif;
+  
+}
+.container {
+  max-width:1500px;
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(219, 219, 219);
+}
+
+.main-card {
+
+  max-width: 1500px;
+  margin: auto;
+  display: flex;
+  text-wrap: wrap;
+  gap: 12px;
+  justify-content: space-between;
+}
+.card {
+  background-color: #ffff;
+  flex: 1 1 calc(25% - 12px);
+  padding: 20px;
+  margin: 10px;
+}
+
+
+
+.pictures {
+  margin: 4px 4px 0px 4px;
+}
+.pictures p{
+    font-size: 15px;
+}
+
+.pictures img{
+    width: 100%;
+}
+
+.parent-pictures-1 {
+  display: flex;
+
+}
+
+.parent-pictures-1 img {
+  width: 100%;
+  height: auto;
+}
+
+.sub-images {
+  max-width: 100%;
+}
+
+.sub-images img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 74, 0);
+  font-weight: bold;
+}
+
+
+
+/* Main-Card Ended here */
+
+.second-card{
+    background-color: #ffff;
+    margin: 10px;
+    overflow: scroll;
+    padding: 10px;
+    
+}
+.box-shops{
+    display: flex;  
+}
+
+#boxing-heading{
+    padding-left:10px ;
+}
+
+.boxing-row{
+    margin: 5px;
+}
+
